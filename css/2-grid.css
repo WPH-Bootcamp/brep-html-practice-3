@@ -1,0 +1,22 @@
+.kotak {
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.container {
+  height: 100dvh;
+  display: grid;
+  gap: 10px;
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-columns: repeat(3, 100px); */
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 1fr;
+}

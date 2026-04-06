@@ -1,0 +1,24 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 1. Translate */
+.translate:hover {
+  transform: translate(100px, 50px);
+}
+
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.rotate:hover {
+  transform: rotate(290deg);
+}

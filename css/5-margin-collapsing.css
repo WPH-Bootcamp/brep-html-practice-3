@@ -1,0 +1,10 @@
+.parent {
+  background: lightblue;
+  height: 100px;
+  border: 1px;
+}
+
+.child {
+  background-color: yellow;
+  margin-top: 50px;
+}

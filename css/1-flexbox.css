@@ -1,0 +1,53 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+/* FLEXBOX CONTAINER */
+.container {
+  height: 200px;
+  background-color: black;
+  /* 1. Definisikan display flex */
+  display: flex;
+
+  /* 2. flex-direction : Menentukan arah main axis (horizontal). */
+  /*  
+  Pattern -> 
+    flex-direction : row (default), column, row-reverse, column-reverse;
+  */
+  flex-direction: row;
+
+  /* 3. flex-wrap : Menentukan cara parent membungkus child */
+  /* 
+  Pattern ->
+    flex-wrap: nowrap (default), wrap, wrap-reverse;
+  */
+  flex-wrap: wrap;
+
+  /* 4. justify-content: Mengatur distribusi ruang sepanjang MAIN axis. */
+  /* 
+  Pattern -> 
+    justify-content: flex-start (default), flex-end, center, space-between, space-evenly, space-around;
+  */
+  justify-content: center;
+
+  /* 5. align-items : Mengatur posisi item di CROSS axis. */
+  /* 
+  Pattern -> 
+    align-items: stretch (default), center, flex-end, flex-start, ... 
+  */
+  align-items: center;
+
+  /* 6. gap: mengatur spasi antar child */
+  gap: 20px;
+}

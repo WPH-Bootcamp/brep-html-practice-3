@@ -1,0 +1,19 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes move {
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: slideUp 0.5s ease-in-out;
+}
